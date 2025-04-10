@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.box{
+    margin:5rem;
+    width: 15rem;
+    height: 15rem;
+    background-color:red;
+    /* box-shadow: 10px 8px 10px 10px #fac6c6; */
+    box-shadow: -10px -8px 10px 10px #fac6c6;
+    border-radius: 50%;
+
+    /* transition  */
+    /* transition: 2s linear; */
+    transition:all 2s ease-in ;
+}
+
+.box:hover{
+    background-color: blue;
+    width: 20rem;
+    height: 20rem;
+
+}
+
