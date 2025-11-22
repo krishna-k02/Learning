@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width:100%;
+
+}
+
+.btn{
+    font-size: 30px;
+    padding:5px;
+    margin:5px;
+
+}
+.btn:active{
+    scale:.9;
+    cursor:Pointer;
+}

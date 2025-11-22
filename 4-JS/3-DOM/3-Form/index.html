@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 id="formname">Landing Page</h1>
+        <div id="formcontainer">
+            <form action="" id="form">
+                <div class="namebox box">
+                    <label for="name">Firsr Name:</label>
+                    <input type="text" name="name" placeholder="Enter Firsr Name" id="name">
+                    <label for="name2">Last Name:</label>
+                    <input type="text" name="lastname" id="name2" placeholder="Enter Last Name">
+                </div>
+                <div class="agebox box">
+                    <label for="age">Age:</label>
+                    <input type="number" name="age" id="age" placeholder="Enter Age">
+                </div>
+                <div class="genderbox box">
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+
+                    <input type="radio" name="gender" id="otehr" name="other">
+                    <label for="otehr">Other</label>
+                </div>
+                <div class="addresbox box">
+                    <label for="address">Full Addres</label>
+                    <input type="text" name="address" id="address" placeholder="Enter Full Address">
+                </div>
+                <div class="submitbox box">
+                <button type="submit" id="button"> Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
